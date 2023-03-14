@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie</title>
+
+  <!--
+    - custom css link 
+  -->
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - main container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Our Menu</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Feedback</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+              <span class="count">5</span>
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Your order.</h4>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">cappuccino</h5>
+              <p class="product-price">
+                <span class="small">RS</span>200
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">FRESH SALAD</h5>
+              <p class="product-price">
+                <span class="small">RS</span>200
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Crispy fish</h5>
+              <p class="product-price">
+                <span class="small">RS</span>350
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">BURGER</h5>
+              <p class="product-price">
+                <span class="small">RS</span>250
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Sea bream carpaccio</h5>
+              <p class="product-price">
+                <span class="small">RS</span>200
+              </p>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="cart-btn-group">
+          <button class="btn btn-secondary">View order</button>
+          <button  class="btn btn-primary">Checkout</button>
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+          <p class="home-subtext">Welcome!</p>
+
+          <h1 class="main-heading">Good Food is Good Mood!</h1>
+
+          <p class="home-text">
+           Enjoy your Meal
+          </p>
+
+          <div class="btn-group">
+
+            <button class="btn btn-primary btn-icon">
+              <img src="./assets/images/menu.svg" alt="menu icon">
+              Our menu
+            </button>
+
+            <button class="btn btn-secondary btn-icon">
+              <img src="./assets/images/arrow.svg" alt="menu icon">
+              About us
+            </button>
+
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
+          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="./assets/images/about-image.jpg" alt="about image" class="about-img" width="250" loading="lazy">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg">10</p>
+              <p class="text-md">Years <br> Experience</p>
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">We are doing more than
+            you expect</h2>
+
+          <p class="section-text">
+            Welcome to our restaurant, where we pride ourselves on providing a truly exceptional dining experience. Our team of talented chefs have crafted a menu that showcases the very best in local and seasonal ingredients, creating dishes that are both delicious and beautifully presented.We believe that dining out should be more than just a meal - it should be a memorable experience that engages all of your senses. From the moment you step through our doors, you will be greeted with warm hospitality and a welcoming atmosphere that sets the tone for a wonderful evening.Our menu features a wide variety of dishes to suit all tastes and dietary requirements, from classic comfort food to more exotic flavours from around the world. We use only the freshest ingredients and our chefs take great pride in creating dishes that are not only delicious, but also visually stunning.In addition to our main menu, we also offer a selection of hand-crafted cocktails, local beers and an extensive wine list that has been carefully curated to complement our menu perfectly. Our knowledgeable staff are always on hand to help you choose the perfect beverage to accompany your meal.Whether you are celebrating a special occasion or simply looking for a great meal in a friendly atmosphere, our restaurant is the perfect choice. We look forward to welcoming you soon and sharing our passion for great food and excellent service.
+          </p>
+
+          </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES SECTION
+      -->
+
+      <section class="services" id="services">
+
+        <div class="service-card">
+
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">We are located in the city center</h3>
+
+          <p class="card-text">
+            Our central location makes us the perfect choice for anyone looking to enjoy a delicious meal before or after exploring all that the city has to offer.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Fresh ingredients from organic farms</h3>
+
+          <p class="card-text">
+            At our restaurant, we are committed to using only the freshest, highest quality ingredients in all of our dishes. That's why we source our ingredients from local organic farms, ensuring that every dish is bursting with flavour and nutrients.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Own fast delivery. 30 min Maximum</h3>
+
+          <p class="card-text">
+            We understand that sometimes you want a delicious meal without having to leave the comfort of your own home. That's why we offer our own fast delivery service, with a maximum delivery time of just 30 minutes.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Professional, experienced chefs</h3>
+
+          <p class="card-text">
+            At our restaurant, we believe that the key to a truly outstanding dining experience is the quality of our food. That's why we have a team of professional, experienced chefs who are committed to using their culinary expertise to create dishes that are as delicious as they are beautiful.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">The highest standards of service</h3>
+
+          <p class="card-text">
+            We believe that great food is only part of what makes a truly exceptional dining experience. That's why we hold ourselves to the highest standards of service, ensuring that every guest who walks through our doors feels welcome, comfortable, and well taken care of.
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PRODUCT SECTION
+      -->
+
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Most popular dishes</h2>
+
+        <p class="section-text">
+          Our menu features a wide variety of dishes, but there are a few that our guests just can't get enough of. Here are our most popular dishes that we think you'll love too
+        </p>
+
+        <div class="products-grid">
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">cappuccino</h3>
+
+                  <p class="product-price">
+                    <span class="small">RS</span>200
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Coffee drink that typically consists of espresso and steamed milk, topped with a layer of frothed milk.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Fresh Salad</h3>
+
+                  <p class="product-price">
+                    <span class="small">RS</span>250
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Saumon Gravlax</h3>
+
+                  <p class="product-price">
+                    <span class="small">RS</span>150
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge red">
+                  <ion-icon name="flame"></ion-icon>
+                  <p>Hot</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Cheese Burger</h3>
+
+                  <p class="product-price">
+                    <span class="small">RS</span>250
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ground beef (or alternative plant-based protein for vegetarian or vegan burgers)
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                <div class="card-badge green">
+                  <ion-icon name="leaf"></ion-icon>
+                  <p>Vegan</p>
+                </div>
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Pasta</h3>
+
+                  <p class="product-price">
+                    <span class="small">RS</span>300
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Chevrefrit au miel</h3>
+
+                  <p class="product-price">
+                    <span class="small">RS</span>200
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  tomatoes, nori, feta cheese, mushrooms, rice noodles, corn, shrimp.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <button class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Full menu
+        </button>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+      <section class="testimonials" id="testimonials">
+
+        <h2 class="section-title">What our customers say?</h2>
+
+        <p class="section-text">
+          Don't just take our word for it - hear what our customers have to say! We're proud to have received rave reviews from diners who have enjoyed our food, service, and atmosphere.
+        </p>
+
+        <div class="testimonials-grid">
+
+          <div class="testimonials-card">
+
+            <h4 class="card-title">Very tasty</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+
+            <p class="testimonials-text">
+              I wanted to share my recent experience at your restaurant. Overall, I had a great time and wanted to thank you for the delicious food and attentive service. The atmosphere of the restaurant was cozy and inviting, and I felt welcomed from the moment I stepped through the door.
+            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">EMMA</h5>
+            </div>
+
+          </div>
+
+          <div class="testimonials-card">
+          
+            <h4 class="card-title">I have lunch here every day</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+              I wanted to take a moment to thank you for the wonderful dining experience I had at your restaurant. The food was exceptional, and I was impressed with the quality of the ingredients and the attention to detail in each dish. The service was also outstanding - my server was knowledgeable, friendly, and attentive throughout the meal.
+            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">MAXI</h5>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#">
+          <img src="./assets/images/logo-footer.svg" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="social-link">
+
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+
+        </div>
+
+        <p class="copyright">&copy; Copyright 2023 Foodie. All Rights Reserved.</p>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/foodhub.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
